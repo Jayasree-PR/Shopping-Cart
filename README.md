@@ -1,2 +1,3 @@
 # Shopping-Cart
-Build a shopping cart using nodeJS, Express, MongoDB and HTML,CSS,Javascript
+
+In this project I have created a shopping cart using nodeJS, Express, MongoDB
