@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --dark:#2b2d42;
+    --light:#adb5bd;
+    --border:#dee2e6;
+    --border-btn:#edf2f4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.nav-responsive{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    justify-content: space-between;
+    background-color:peachpuff;
+    margin-top: 0em;
+
+    }
+
+    table{
+        border-spacing: 20px;
+        width: 100%;
+        padding-top: 5em;
+    }
+    
+    .table td, .table th{
+        padding: .75em;
+        vertical-align: top;
+        text-align: center;
+        border-top: 1px solid var(--border);
+    }
+    .timage{
+        width: 3em;
+    height: 2em;
+    }
+    
+
+    #site-main{
+        margin-top: 0em;
+        font-family: 'Barlow', sans-serif;
+    }
+    #site-main .container .box-nav > a{
+        font-size: 1em;
+        padding: .5em 1em;
+    }
+    
+    #site-main .container form{
+        margin: 0em 0;
+    }
+    
+    .empty{
+        width: 500em;
+        padding: 15em 35em;
+        align-items: center;
+        display: inline-block;
+    }
+    #emptycart{
+        size: 100em;
+    }
+
+.cakelin{
+    font-style: oblique;
+    align-self: center;
+    font-size: 2pc;
+    border-radius: 50pc;
+    background-color: plum
+}
+.logo {
+    width: 3em;
+    height: 2em;
+}
+.nav-search{
+    align-self: center;
+     width: 60vw;
+     position: relative;
+     margin:0 auto;   
+}
+#search{
+    width: 50vw;
+    border-radius: 1.2rem;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+    border: none;
+}
+#find{
+    position: absolute;
+
+    right:0rem;
+    top: 0.2rem;
+    background: transparent;
+    color:rgb(71, 71, 71);
+}
+#cart{
+    font-size: 2rem;
+}
+.access{
+    color: #000;
+    font-size: 1.5rem;
+    padding: 0rem;
+}
+#notification{
+    color: #000;
+    position: relative;
+}
+#main{
+    margin-top:25px;
+    margin: 3rem;
+    margin-right: 0px;
+    height: 5px;
+    
+}
+.cake{
+    display: inline-block;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#empty-cart{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.cart-list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 0.4rem;
+    position: relative;
+    padding: 0.5rem 1rem;
+    background: white;
+}
+.list-name,.quantity,#delete{
+    padding: 1.2rem 0.2rem ;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative; 
+    z-index: 100;  
+}
+#list-img{
+    width: 5rem;
+    height: 5rem;
+}
+.table td > a.btn{
+    padding: .3em 1em;
+    font-size: 1.1em;
+    margin: 0 .2em;
+}
+
+table{
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.table td, .table th{
+    padding: .75em;
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid var(--border);
+}
+.table tr:hover td > a{
+    box-shadow: none;
+}
+
+.table .thead-dark th{
+    color: #fff;
+    background-color: black ;
+    border-color: #32383e;
+}
+@media only screen and (max-width: 1024px){
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid var(--border);}
+
+    td{
+        border: none;
+        position: relative;
+    }
+
+}

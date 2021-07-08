@@ -1,0 +1,102 @@
+<%- include('header') %>
+
+<div id="main">
+    <div class="cake" id="0">
+        <div class="text">
+        <form method="POST" action="/addtocart">  
+        <img src="/img/Cakes-images/cake2.jpg" alt="img1" id="img1">
+        <input type="hidden" name="id" value="">
+        <h1 id="title" name = "name">Chocolate Delight</h1>
+        <input type="hidden" id="title0" name = "name" value="Chocolate Delight">
+        <label>Select Qty:</label>
+        <select id="cake" name="quantity">
+            <option value="0.5Kg">0.5Kg</option>
+            <option value="1Kg" selected>1Kg</option>
+            <option value="2Kg">2Kg</option>
+            <option value="3Kg">3Kg</option>
+        </select>
+        </div>
+        <button value="Add to cart" id="add-to-cart" >Add to cart</button>
+        </form>
+    </div>
+    <div class="cake" id="1">
+        <div class="text">
+            <form method="POST" action="/addtocart">  
+        <img src="/img/Cakes-images/cake3.jpg" alt="img1" id="img1">
+        <input type="hidden" name="id" value="">
+            <h1 id="title">White Honey Cake</h1>
+            <input type="hidden" id="title1" name = "name" value="White Honey">
+            <label>Select Qty:</label>
+            <select id="cake" name="quantity">
+                <option value="0.5">0.5Kg</option>
+                <option value="1" selected>1Kg</option>
+                <option value="2">2Kg</option>
+                <option value="3">3Kg</option>
+            </select>
+        </div>
+        <button value="Add to cart" id="add-to-cart">Add to cart</button>
+        </form>
+    </div>
+    <div class="cake" id="2">
+        <div class="text">
+            <form method="POST" action="/addtocart">  
+        <img src="/img/Cakes-images/cake4.jpg" alt="img1" id="img1">
+        <input type="hidden" name="id" value="">
+            <h1 id="title">Blueberry Cheese</h1>
+            <input type="hidden" id="title2" name = "name" value="Blueberry Cheese">
+            <label>Select Qty:</label>
+            <select id="cake" name="quantity">
+                <option value="0.5">0.5Kg</option>
+                <option value="1" selected>1Kg</option>
+                <option value="2">2Kg</option>
+                <option value="3">3Kg</option>
+            </select>
+        </div>
+            <button value="Add to cart" id="add-to-cart">Add to cart</button>
+    </form>
+    </div>
+    <div class="cake" id="3">
+        <div class="text">
+            <form method="POST" action="/addtocart">  
+        <img src="/img/Cakes-images/cake5.jpg" alt="img1" id="img1">
+        <input type="hidden" name="id" value="">
+            <h1 id="title">Floral Vanila</h1>
+            <input type="hidden" id="title3" name = "name" value="Floral Vanila">
+            <label>Select Qty:</label>
+            <select id="cake" name="quantity">
+                <option value="0.5">0.5Kg</option>
+                <option value="1" selected>1Kg</option>
+                <option value="2">2Kg</option>
+                <option value="3">3Kg</option>
+            </select>
+        </div>
+            <button value="Add to cart" id="add-to-cart">Add to cart</button>
+    </form>
+    </div>
+    <div class="cake" id="4">
+        <div class="text">
+            <form method="POST" action="/addtocart">  
+            <img src="/img/Cakes-images/cake1.jpg" alt="img1" id="img1">
+            <input type="hidden" name="id" value="">
+            <h1 id="title">Chocolate Truffle</h1>
+            <input type="hidden" id="title4" name = "name" value="Chocolate Truffle">
+            <label>Select Qty:</label>
+            <select id="cake" class="cake" name="quantity">
+                <option value="0.5">0.5Kg</option>
+                <option value="1" selected>1Kg</option>
+                <option value="2">2Kg</option>
+                <option value="3">3Kg</option>
+            </select>
+        </div>
+            <button value="Add to cart" id="add-to-cart">Add to cart</button>
+    </form>
+    </div>
+</div>
+
+    
+    </div>
+</div>   
+
+
+
+<%- include('footer') %>

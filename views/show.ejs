@@ -1,0 +1,18 @@
+                
+    <% for(var i=0;i<users.length;i++){%>           
+        <tr>
+    
+            <td> <%=i+1 %> </td>
+            <td><%= i %></td>
+            <td> <%= users[i].name %> </td>
+            
+            <td> <%= users[i].quantity %> </td>
+            
+            <td>
+                <form action="/cart/delete/<%=users[i]._id %>" method="POST" id="delete">
+                <input type="hidden" id="<%=users[i]._id %>" value="<%=users[i]._id %>">
+                <button type="submit" class="btn border-shadow delete">Delete</button>
+                </form>
+            </td>
+        </tr>
+<%}%>
