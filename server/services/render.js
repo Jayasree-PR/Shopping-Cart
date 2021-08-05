@@ -18,7 +18,7 @@ exports.displaycart=(req,res)=> {
 exports.displayhome=(req,res)=>{
     res.render('index');
 }
-/*
+
 exports.remove = (req,res)=>{
     $ondelete = $(".table tbody td a.delete");
     $ondelete.click(function(){
@@ -31,4 +31,4 @@ exports.remove = (req,res)=>{
         }
 
 })
-}*/
+}
